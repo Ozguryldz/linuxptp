@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+
+<!--
+     #this is the SAD(Security Association Database for every ports of Application
+-->
+
+
+<SecurityAssociations>
+	<SecurityAssociation name="SA1" type = "immediate" integrityAlg="HMAC-Sha256"/>
+	<SecurityAssociation name="SA2" type = "immediate" integrityAlg="HMAC-Sha64"/>
+	<SecurityAssociation name="SA3" type = "delayed" integrityAlg="HMAC-Sha256" TC_Authority="false"/>
+		
+	
+</SecurityAssociations>
